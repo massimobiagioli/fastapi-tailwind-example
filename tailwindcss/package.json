@@ -1,0 +1,19 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./styles/app.css -o ../static/css/app.css",
+    "dev": "npx tailwindcss -i ./styles/app.css -o ../static/css/app.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "devDependencies": {
+    "daisyui": "^4.10.2"
+  }
+}
